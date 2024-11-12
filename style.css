@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    background-image: url('Background_image@3x.png');
+    height: 100vh;
+    
+    
+}
+.head{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 40px;
+    
+}
+.main{
+    display: flex; 
+    justify-content: center;
+}
+.div{
+    width:340px;
+    height:350px;
+    padding:25px;
+    margin: 15px; 
+    background-color: rgba(0, 0, 0, 0.874);
+    border-radius: 5px;  
+   
+}
+.div h3{
+    font-size: 21px;
+    color: white;
+}
+.div p{
+    font-size: 17px;
+    padding-bottom: 10px;
+    color: white;
+}
+.div img{
+    border-radius:20px;
+   
+}
+@media screen and (max-width:576px) {
+    .main{
+        display: grid;
+        
+    }
+    
+}
